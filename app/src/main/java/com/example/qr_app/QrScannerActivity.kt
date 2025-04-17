@@ -18,7 +18,7 @@ class QrScannerActivity : AppCompatActivity() {
 
     private lateinit var barcodeView: DecoratedBarcodeView
 
-    private val cameraPermissionCode = 101
+    private val CAMERA_PERMISSION_CODE = 101
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +40,7 @@ class QrScannerActivity : AppCompatActivity() {
             ActivityCompat.requestPermissions(
                 this,
                 arrayOf(Manifest.permission.CAMERA),
-                cameraPermissionCode
+                CAMERA_PERMISSION_CODE
             )
         } else {
             startQrScanner()
@@ -84,7 +84,7 @@ class QrScannerActivity : AppCompatActivity() {
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
 
-        if (requestCode == cameraPermissionCode) {
+        if (requestCode == CAMERA_PERMISSION_CODE) {
             if ((grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
                 startQrScanner()
             } else {
