@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184728220083",
+    "project_id": "qr-pdf-app-8eff8",
+    "storage_bucket": "qr-pdf-app-8eff8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184728220083:android:7089a84b0cac52cdf49bc6",
+        "android_client_info": {
+          "package_name": "com.example.qr_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9HbLpWDiO8OuNcF0S0PeUHofyyTB4BPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
