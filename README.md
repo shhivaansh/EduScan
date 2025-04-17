@@ -2,7 +2,7 @@
 
 EduScan is an Android application that enables teachers to securely upload and share PDF documents with students via QR codes. Students can scan the QR code to view the document directly in the app, with access control and security features to ensure a smooth and safe experience.
 
-> 🌐 **Live Demo**: [EduScan.apk](https://drive.google.com/file/d/1KbUiYOP7SOftaQa2uJwdKlW6BF5w3XVC/view?usp=drive_link)
+> 🌐 **Download the apk**: [EduScan.apk](https://drive.google.com/file/d/1KbUiYOP7SOftaQa2uJwdKlW6BF5w3XVC/view?usp=drive_link)
 
 ---
 
